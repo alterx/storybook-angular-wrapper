@@ -1,0 +1,19 @@
+{
+  "name": "storybook-angular-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Vega",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  }
+}
